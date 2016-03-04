@@ -1,0 +1,7 @@
+{
+  "framework": "jasmine2",
+  "src-files": [
+  "bubble-sort/*.js",
+  "merge-sort/*.js"
+  ]
+}

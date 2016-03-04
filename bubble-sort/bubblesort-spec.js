@@ -3,10 +3,11 @@
 describe('Bubble Sort', function(){
     var testArray = [6,9,8,2,4];
     it('handles an empty array', function(){
-        expect(bubbleSort([])).toEqual([]);
+        testArray = [];
+        expect(bubbleSort(testArray)).toEqual([]);
     });
     it('should return the correct order of an array',function(){    
-        expect(bubbleSort(testArray).toEqual([2,4,6,8,9]));
+        expect(bubbleSort([6,9,8,2,4])).toEqual([2,4,6,8,9]);
     });
     it('should call itself recursively,ly,ly',function(){
       expect(bubbleSort.calls.count()).toBeGreaterThan(4);
