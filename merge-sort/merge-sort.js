@@ -37,6 +37,5 @@ function mergeSort(array) {
   var right = split(array)[1];
 
   return merge(mergeSort(left), mergeSort(right));
-  
 }
   
